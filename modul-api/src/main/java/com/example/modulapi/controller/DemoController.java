@@ -1,6 +1,7 @@
 package com.example.modulapi.controller;
 
 import com.example.modulcommon.service.CommonDemoService;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
