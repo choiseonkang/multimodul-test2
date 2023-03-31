@@ -1,0 +1,4 @@
+rootProject.name = 'multimodul-test2'
+
+include 'modul-api'
+include 'modul-common'
