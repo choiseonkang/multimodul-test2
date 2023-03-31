@@ -67,5 +67,5 @@ jobs:
             docker pull ${{ secrets.NCP_CONTAINER_REGISTRY }}/admin
             docker stop $(docker ps -a -q)
             docker rm $(docker ps -a -q)
-            docker run -d -p 8080:8080 --name admin-server ${{ secrets.NCP_CONTAINER_REGISTRY }}/admin
+            docker run -d -p 8080:8081 --name admin-server ${{ secrets.NCP_CONTAINER_REGISTRY }}/admin
             docker image prune -f
