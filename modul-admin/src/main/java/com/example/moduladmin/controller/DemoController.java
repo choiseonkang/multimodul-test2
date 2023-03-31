@@ -16,6 +16,6 @@ public class DemoController {
     @GetMapping("/test")
     public String test() {
         System.out.println(commonDemoService.commonService());
-        return "test";
+        return commonDemoService.commonService() + "1234";
     }
 }
