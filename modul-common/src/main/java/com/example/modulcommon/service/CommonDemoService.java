@@ -6,6 +6,6 @@ import org.springframework.stereotype.Service;
 public class CommonDemoService {
 
     public String commonService() {
-        return "commonService";
+        return "commonService 변경입니다.";
     }
 }
