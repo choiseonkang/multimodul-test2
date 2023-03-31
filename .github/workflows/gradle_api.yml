@@ -45,7 +45,7 @@ jobs:
       uses: docker/build-push-action@v3
       with:
         context: .
-        file: ./Dockerfile
+        file: ./modul-api/Dockerfile
         push: true
         tags: ${{ secrets.NCP_CONTAINER_REGISTRY }}/blue:latest
         cache-from: type=registry,ref=${{ secrets.NCP_CONTAINER_REGISTRY }}/blue:latest
